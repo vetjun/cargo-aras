@@ -1,0 +1,26 @@
+{
+    "name": "flo/cargo-aras",
+    "description": "Flo Aras Cargo",
+    "type": "library",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vetjun/cargo-base"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Flo\\CargoAras\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Osman Çevik",
+            "email": "kosi118@gmail.com"
+        }
+    ],
+    "require": {
+        "flo/cargo-base": "dev-main"
+    }
+}
